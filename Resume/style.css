@@ -1,0 +1,31 @@
+.Exp {
+    display: block;
+    background-color:rgb(189, 184, 184);
+    height: 30px;
+    
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 30px;
+}
+.about{
+    text-align: justify;
+    text-indent: 30px;
+}
+.Resume {
+    text-align: center;
+    background-color:rgb(189, 184, 184);
+    height: 30px;
+  }
+
+  img {
+        vertical-align: middle;
+        margin-left: 40px;
+        
+  }
+  .name{
+    font-size: 20px;
+  }

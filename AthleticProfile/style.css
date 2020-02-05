@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Avenir Next Medium;
      }
 
      nav ul
@@ -21,13 +21,15 @@ body {
      .profile
      {
         text-align: center;
-        font-family: sans-serif;
+        font-family: Avenir Next;
      }
      .form
      {
         text-align: center;
-        font-family: sans-serif;
+        font-family: Avenir Next;
+        
      }
+   
      .stats
      {
         margin-bottom: 20px;
