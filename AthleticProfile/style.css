@@ -7,41 +7,34 @@ body {
         
         text-align:center;
      }
-  nav li
-     {
+  nav li {
         display: inline-block;
         text-decoration: none; 
         margin-left:30px;
      }
-     nav a
-     {
+     nav a {
       color:black; 
       text-decoration: none; 
      }
-     .profile
-     {
+     .profile{
         text-align: center;
         font-family: Avenir Next;
      }
-     .form
-     {
+     .form{
         text-align: center;
         font-family: Avenir Next;
         
      }
    
-     .stats
-     {
+     .stats{
         margin-bottom: 20px;
      }
-     .img
-     {
+     .img {
         vertical-align: middle;
         margin-left: 40px;
        
      }
-     .abouttext
-     {
+     .abouttext{
         display: inline;
        
      }
