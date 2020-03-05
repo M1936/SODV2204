@@ -1,0 +1,158 @@
+
+/* Home page styling begins*/
+nav ul
+{
+   background:black;
+   text-align:center;
+   height:25px;
+   width: auto;
+   margin-top:-10px;
+   padding:1.5em;
+}
+nav li {
+   display: inline-block;
+   text-decoration: none; 
+   margin-left:25px;
+   margin-right: 35px;
+}
+nav a {
+ color:white; 
+ text-decoration: none; 
+}
+.wrapper{
+    width:1300px;
+    margin: 0 auto;
+}
+.index-banner{
+    margin-top: -50px;
+    width:100%;
+    height:100vh;
+    background-image: url('Images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.index-banner h1{
+    font-size: 60px;
+    color:white;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20%;
+}
+
+.index-taste div{
+    margin-top: 50px;
+    margin-left: 5%;
+    line-height: 40px;
+    height:400px;
+    background-color: #f2f2f2;
+    padding: 3em;
+    
+    
+}
+
+.tasting-room h1{
+    font-size: 40px;
+}
+
+.tasting-room{
+    width: 40%;
+    float: left;
+}
+
+.index-taste-image div{
+    
+    margin-top: 50px;
+    line-height: 40px;
+    height:400px;
+    background-color: #f2f2f2;
+    padding: 3em;
+    
+}
+.tasting-room-image{
+    background-image: url('Images/tasting2.jpg');
+    background-repeat: no-repeat;
+    width:40%;
+    float:right;
+}
+.wrapper2{
+    width:1300px;
+    margin: 0 auto;
+}
+.index-beer div{
+    margin-top: 50px;
+    margin-left: 5%;
+    line-height: 40px;
+    height:250px;
+    background-image: url('Images/beer1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;   
+}
+
+.tasting-room2 h1{
+    font-size: 40px;
+}
+
+.tasting-room2{
+    width: 20%;
+    float: left;
+}
+
+.index-taste-image2 div{
+    
+    margin-top: 50px;
+    margin-left: 80px;
+    line-height: 40px;
+    height:250px;
+    background-image: url('Images/beer1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3em;
+    
+}
+.tasting-room-image2{
+    background-image: url('Images/beer3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    float: left;
+}
+.index-taste-image3 div{
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    line-height: 40px;
+    height:250px;
+    background-image: url('Images/beer1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f2f2f2;
+    padding: 3em;
+    
+}
+.tasting-room-image3{
+    background-image: url('Images/beer1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    float: right;
+}
+
+.wrapper3{
+    width:1300px;
+    margin: 0 auto;
+}
+.footer-dandy{
+    margin-top: 10%;
+    padding: 2em;
+    text-align: center;
+}
+.footer-left{
+    padding-top: 70%;
+}
+
+/* Home page styling ends*/
+
+
