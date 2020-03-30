@@ -1,93 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <html>
-    <head>
-      <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8" />
+    <title>The Dandy Brewing Company</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
 
-      <title>The Dandy Brewing Company</title>
-      <link href="./style.css" rel="stylesheet" />
-    </head>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Beers.html">BEERS</a></li>
+          <li><a href="Tasting-room.html">TASTING ROOM</a></li>
+          <li><a href="AboutUs.html">OUR STORY</a></li>
+          
+        </ul>
+      </nav>
+    </header>
 
-    <body>
-      <header>
-        <!--<a href="index.html" class="logo">DANDY</a>-->
-        <nav>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="Beers.html">BEERS</a></li>
-            <li><a href="Tasting-room.html">TASTING ROOM</a></li>
-            <li><a href="AboutUs.html">ABOUT US</a></li>
-            <li><a href="ContactUS.html">CONTACT US</a></li>
-          </ul>
-        </nav>
-      </header>
+     <!--Homepage banner-->
+    <section class="index-banner">
+      <p>
+        <img src="Images/Dandy_Brewing_Logo.png" alt="Dandy Brewing Logo" />
+      </p>
+    </section>
+     <!--Homepage banner-->
 
-      <section class="index-banner">
-        <h1>Welcome to Dandy</h1>
-      </section>
+      <!--About Us-->
 
-      <div class="wrapper">
-        <section class="index-taste">
-          <div class="tasting-room">
-            <h1>Tasting Room</h1>
-            <p>
-              It is a unique dining experience located in the heart of Ramsay.
-              The modern space features 20 taps of Dandy Beers (maybe a few
-              guest taps), a curated cocktail list featuring local spirit, and a
-              daily selection of top quality wines available by the glass.
-            </p>
-          </div>
-        </section>
-
-        <section class="index-taste-image">
-          <div class="tasting-room-image"></div>
-        </section>
+    <section class="about-us-flex">
+      <div class="about-us">
+        <h1>About Us</h1>
+        <p>
+          The Dandy Brewing Company is Calgary's original small brewery.
+          Although it has grown a little, it's still small at heart. We produce
+          inspired ales, with lots of care, in small batches. Our unique
+          approach to brewing and keen eye to every detail and fosters
+          creativity in both our recipes and beer styles. On site, we are
+          pleased to offer a unique brewery experience, featuring a full service
+          tasting room with an exquisite menu of fine dining drinking food, a
+          curated selection of cocktails, glass pours of selected wines, and 20
+          taps of Dandy beers. We share a passion for not only brewing, but the
+          people, process, experiences, and personal touches that make the real
+          ale experience so special.
+        </p>
       </div>
-      <div class="wrapper2">
-        <section class="index-beer">
-          <div class="tasting-room2">
-            <h1>Tasting Room</h1>
-          </div>
-        </section>
+    </section>
 
-        <section class="index-taste-image2">
-          <div class="tasting-room-image2"></div>
-        </section>
+     <!--About US-->
 
-        <section class="index-taste-image3">
-          <div class="tasting-room-image3"></div>
-        </section>
+   <!--Three options-->
+
+    <section class="index-options">
+      <div class="index-image-section">
+        <img src="Images/Chef Merritt Gordon.jpg" alt="" />
+        <p>Our Story</p>
+      </div>
+      <div class="index-image-section">
+        <img src="Images/Cosmic Dancer.jpg" alt="" />
+        <p>Our Beers</p>
       </div>
 
-      <div class="wrapper3">
-        <footer class="footer-dandy">
-          <div class="footer-left">
-            <h3>Explore <span> Dandy</span></h3>
-
-            <p class="footer-links">
-              <a href="#">Beers</a>
-
-              <a href="#">Food</a>
-
-              <a href="#">Story</a>
-
-              <a href="#">Events</a>
-            </p>
-            <p>THE DANDY BREWING COMPANY AND TASTING ROOM</p>
-          </div>
-
-          <div>
-            <p>
-              <span>2003 11 STREET SOUTHEAST,</span> CALGARY, AB, T2G 3G6,
-              CANADA
-            </p>
-          </div>
-
-          <div>
-            <p>+1 403-898-2344</p>
-          </div>
-        </footer>
+      <div class="index-image-section">
+        <img src="Images/Caviar Martini Champagne Rose.jpg" alt="" />
+        <p>Our Menu</p>
       </div>
-    </body>
-  </html>
+    </section>
+
+   <!--Three options-->
+
+    <!--Contact Form section starts-->
+
+    <form class="contactus">
+      <h1>Contact Us</h1>
+      <fieldset class="form">
+        <input
+          type="text"
+          class="name"
+          value="Enter your name"
+          disabled
+        /><br /><br />
+        <input
+          type="email"
+          class="email"
+          value="Enter your email"
+          disabled
+        /><br /><br />
+        <input type="text" class="message" value="Enter text" disabled /> <br />
+        <br />
+        <button class="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <!--Contact Form section ends -->
+
+    <!--Footer section -->
+
+    <footer class="footer-dandy">
+      <div class="footer-left">
+        <h3>Explore <span> Dandy</span></h3>
+        <p>THE DANDY BREWING COMPANY AND TASTING ROOM</p>
+      </div>
+
+      <div>
+        <p>
+          <span>2003 11 STREET SOUTHEAST,</span> CALGARY, AB, T2G 3G6, CANADA
+        </p>
+      </div>
+
+      <div>
+        <p>+1 403-898-2344</p>
+      </div>
+    </footer>
+
+    <!--Footer section -->
+  </body>
 </html>

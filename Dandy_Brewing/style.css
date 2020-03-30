@@ -1,158 +1,450 @@
-
 /* Home page styling begins*/
-nav ul
-{
-   background:black;
-   text-align:center;
-   height:25px;
-   width: auto;
-   margin-top:-10px;
-   padding:1.5em;
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Avenir.woff") format("woff"),
+    url("../fonts/Avenir.ttf") format("truetype"),
+    url("../fonts/Avenir.svg#Avenir") format("svg");
+}
+
+body {
+  font-family: "Avenir", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  background: black;
+  text-align: center;
+  height: 25px;
+  width: auto;
+  margin: 0px;
+  padding: 3em;
 }
 nav li {
-   display: inline-block;
-   text-decoration: none; 
-   margin-left:25px;
-   margin-right: 35px;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 35px;
 }
-nav a {
- color:white; 
- text-decoration: none; 
-}
-.wrapper{
-    width:1300px;
-    margin: 0 auto;
-}
-.index-banner{
-    margin-top: -50px;
-    width:100%;
-    height:100vh;
-    background-image: url('Images/banner1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+li {
+  display: inline-block;
+  text-align: center;
 }
 
-.index-banner h1{
-    font-size: 60px;
-    color:white;
-    text-align: left;
-    margin-left: 50px;
-    padding-top: 20%;
+li a {
+  text-transform: uppercase;
+  color: lightgray;
+  text-align: center;
+  padding: 0px 30px;
+  text-decoration: none;
 }
 
-.index-taste div{
-    margin-top: 50px;
-    margin-left: 5%;
-    line-height: 40px;
-    height:400px;
-    background-color: #f2f2f2;
-    padding: 3em;
-    
-    
+li a:hover {
+  color: white;
 }
 
-.tasting-room h1{
-    font-size: 40px;
+.index-banner {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 600px;
+  background-image: url("Images/Beers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.tasting-room{
-    width: 40%;
-    float: left;
+/* Logo Image on the banner */
+img {
+  height: 300px;
 }
 
-.index-taste-image div{
-    
-    margin-top: 50px;
-    line-height: 40px;
-    height:400px;
-    background-color: #f2f2f2;
-    padding: 3em;
-    
+@media (min-width: 768px) {
+  .about-us-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
-.tasting-room-image{
-    background-image: url('Images/tasting2.jpg');
-    background-repeat: no-repeat;
-    width:40%;
-    float:right;
-}
-.wrapper2{
-    width:1300px;
-    margin: 0 auto;
-}
-.index-beer div{
-    margin-top: 50px;
-    margin-left: 5%;
-    line-height: 40px;
-    height:250px;
-    background-image: url('Images/beer1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 3em;   
+.about-us h1 {
+  font-size: 40px;
+  font-weight: 400;
 }
 
-.tasting-room2 h1{
-    font-size: 40px;
+.about-us {
+  margin: 0px 0px;
+  flex-basis: 60%;
+  flex: 4;
+  line-height: 40px;
+  background-color: white;
+  padding: 100px;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: justify;
 }
 
-.tasting-room2{
-    width: 20%;
-    float: left;
+@media (min-width: 768px) {
+  .index-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px 20px;
+    padding: 20px;
+  }
+}
+.index-options img {
+  max-width: 100%;
+  height: 400px;
 }
 
-.index-taste-image2 div{
-    
-    margin-top: 50px;
-    margin-left: 80px;
-    line-height: 40px;
-    height:250px;
-    background-image: url('Images/beer1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 3em;
-    
+.index-image-section {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
 }
-.tasting-room-image2{
-    background-image: url('Images/beer3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 20%;
-    float: left;
+.index-image-section p {
+  border: 2px solid black;
+  margin: 30px 200px;
+  border-radius: 3px;
+  padding: 20px;
+  letter-spacing: 0.2em;
 }
-.index-taste-image3 div{
-    
-    margin-top: 50px;
-    margin-left: 10px;
-    line-height: 40px;
-    height:250px;
-    background-image: url('Images/beer1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #f2f2f2;
-    padding: 3em;
-    
+.contactus {
+  margin: 0px 0px;
+  padding: 100px;
 }
-.tasting-room-image3{
-    background-image: url('Images/beer1.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 20%;
-    float: right;
+.contactus h1 {
+  font-weight: 400;
 }
-
-.wrapper3{
-    width:1300px;
-    margin: 0 auto;
+.form {
+  border: none;
+  text-align: center;
+  /* outline: none; */
 }
-.footer-dandy{
-    margin-top: 10%;
-    padding: 2em;
-    text-align: center;
+.name {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
 }
-.footer-left{
-    padding-top: 70%;
+.email {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.message {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.submit {
+  background: black;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 7px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 20px;
+  outline: none;
+}
+.footer-dandy {
+  background-color: #000;
+  margin-top: 2%;
+  padding: 2em;
+  text-align: center;
+  color: white;
 }
 
 /* Home page styling ends*/
 
+/* Beer page Styling starts*/
 
+@media (min-width: 768px) {
+  .beerpage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.banner {
+  background-color: black;
+  color: white;
+  flex: 3;
+  line-height: 40px;
+  padding: 40px;
+}
+
+.underworld {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.une {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.wild {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.golden {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.cherry {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.black {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.jungle {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.hopped {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.banner2 {
+  background-color: black;
+  color: white;
+  flex: 3;
+  max-width: 100%;
+  padding: 30px;
+}
+
+.banner h1 {
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  left: 10px;
+  border: 2px solid white;
+  margin: 30px 250px;
+  border-radius: 3px;
+  padding: 20px;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+
+  position: relative;
+  left: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  left: 10px;
+}
+
+h4 {
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+h5 {
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+/* Beer page Styling ends*/
+
+/* About Us Styling Starts*/
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: justify;
+    flex-direction: column;
+  }
+}
+.about-text {
+  margin: 0px 0px;
+  flex: 2;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  justify-content: center;
+}
+.the-story {
+  margin: 0px 0px;
+  flex: 2;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  justify-content: center;
+}
+
+.addressFoot {
+  margin-top: 1.5%;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 150px;
+}
+.textFoot {
+  margin-top: 1.5%;
+  color: white;
+  font-size: 15px;
+  margin-left: 20%;
+}
+/* About Us Styling ends*/
+/* Tasting room styling starts*/
+
+.tasting-room-banner {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 600px;
+  background-image: url("Images/Caviar\ Martini\ Champagne\ Rose.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.tasting-room-banner h1 {
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 200px;
+  color: white;
+}
+@media (min-width: 768px) {
+  .tating-room-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.tasting-room-section h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.what-we-do {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.restaurant {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #fff;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.shop {
+  margin: 0px 0px;
+  flex: 3;
+  line-height: 40px;
+  background-color: #eee;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+.hours {
+  margin: auto;
+  text-align: center;
+}
+.tasting-room-section h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.more-info {
+  margin: 0px 0px;
+  line-height: 40px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+/* Tasting room styling ends*/
