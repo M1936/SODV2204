@@ -6,7 +6,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 nav ul {
   background: black;
   text-align: center;
@@ -21,6 +20,7 @@ nav li {
   margin-left: 25px;
   margin-right: 35px;
 }
+
 li {
   display: inline-block;
   text-align: center;
@@ -53,14 +53,10 @@ li a:hover {
 img {
   height: 300px;
 }
-
-@media (min-width: 768px) {
-  .about-us-flex {
+.about-us-flex {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
   }
-}
 .about-us h1 {
   font-size: 40px;
   font-weight: 400;
@@ -110,11 +106,29 @@ img {
 .index-image-section a {
   text-decoration: none;
 }
-.contactus {
+
+  .contactus {
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px;
+    padding:20px;
+  }
+
+.hours {
+  flex: 4;
+  margin: auto;
+  border: 3px solid black;
+  padding: 40px;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.contact_form {
+  flex:4;
   margin: 0px 0px;
   padding: 100px;
 }
-.contactus h1 {
+.contact_form h1 {
   font-weight: 400;
   text-align: center;
 }
@@ -177,13 +191,12 @@ img {
 
 /* Beer page Styling starts*/
 
-@media (min-width: 768px) {
+
   .beerpage {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* justify-content: center; */
   }
-}
+
 .banner {
   background-color: black;
   color: white;
@@ -338,7 +351,7 @@ h5 {
 /* Beer page Styling ends*/
 
 /* About Us Styling Starts*/
-@media (min-width: 768px) {
+
   .content {
     display: flex;
     justify-content: center;
@@ -346,7 +359,6 @@ h5 {
     text-align: justify;
     flex-direction: column;
   }
-}
 .about-text {
   margin: 0px 0px;
   flex: 2;
@@ -382,6 +394,7 @@ h5 {
   margin-left: 20%;
 }
 /* About Us Styling ends*/
+
 /* Tasting room styling starts*/
 
 .tasting-room-banner {
@@ -400,13 +413,11 @@ h5 {
   margin-top: 200px;
   color: white;
 }
-@media (min-width: 768px) {
+
   .tating-room-section {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
   }
-}
+
 .tasting-room-section h2 {
   font-size: 40px;
   font-weight: 500;
@@ -443,10 +454,7 @@ h5 {
   font-weight: 200;
   text-align: center;
 }
-.hours {
-  margin: auto;
-  text-align: center;
-}
+
 .tasting-room-section h3 {
   font-size: 30px;
   font-weight: 500;
