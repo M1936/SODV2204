@@ -54,9 +54,9 @@ img {
   height: 300px;
 }
 .about-us-flex {
-    display: flex;
-    justify-content: space-around;
-  }
+  display: flex;
+  justify-content: space-around;
+}
 .about-us h1 {
   font-size: 40px;
   font-weight: 400;
@@ -107,24 +107,25 @@ img {
   text-decoration: none;
 }
 
-  .contactus {
-    display: flex;
-    justify-content: center;
-    margin: 20px 50px;
-    padding:20px;
-  }
+.contactus {
+  display: flex;
+  justify-content: center;
+  margin: 20px 100px;
+  padding: 20px;
+}
 
 .hours {
-  flex: 4;
+  flex: 2;
   margin: auto;
   border: 3px solid black;
   padding: 40px;
   letter-spacing: 0.1em;
   color: #000;
+  text-align: center;
 }
 
 .contact_form {
-  flex:4;
+  flex: 4;
   margin: 0px 0px;
   padding: 100px;
 }
@@ -135,7 +136,6 @@ img {
 .form {
   border: none;
   text-align: center;
-  /* outline: none; */
 }
 .name {
   font-size: 20px;
@@ -190,12 +190,9 @@ img {
 /* Home page styling ends*/
 
 /* Beer page Styling starts*/
-
-
-  .beerpage {
-    display: flex;
-    /* justify-content: center; */
-  }
+.beerpage {
+  display: flex;
+}
 
 .banner {
   background-color: black;
@@ -352,13 +349,13 @@ h5 {
 
 /* About Us Styling Starts*/
 
-  .content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: justify;
-    flex-direction: column;
-  }
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: justify;
+  flex-direction: column;
+}
 .about-text {
   margin: 0px 0px;
   flex: 2;
@@ -414,9 +411,9 @@ h5 {
   color: white;
 }
 
-  .tating-room-section {
-    display: flex;
-  }
+.tating-room-section {
+  display: flex;
+}
 
 .tasting-room-section h2 {
   font-size: 40px;
